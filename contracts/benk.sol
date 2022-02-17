@@ -4,6 +4,7 @@ pragma solidity >=0.8.12;
 
 interface ERC20 {
     function transfer(address to, uint256 value) external returns (bool);
+
     event Transfer(address indexed from, address indexed to, uint256 value);
 }
 
